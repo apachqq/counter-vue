@@ -11,13 +11,10 @@
 </template>
 
 <script>
+    import AppMixin from '@/mixins/AppMixin'
+
     export default {
-        data() {
-            return {
-                counter: 0,
-                title: 'Счётчик'
-            }
-        }
+        mixins: [AppMixin]
     }
 </script>
 
